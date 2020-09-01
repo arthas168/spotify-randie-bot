@@ -13,7 +13,6 @@ spotify = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 IN_THEATRICAL_MODE = False
 
 
-# TODO: should be in utils file
 def toggle_sleep(in_theatrical_mode):
     if in_theatrical_mode:
         time.sleep(1)
